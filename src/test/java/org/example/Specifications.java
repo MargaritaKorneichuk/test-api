@@ -15,7 +15,7 @@ public class Specifications {
 
     public static ResponseSpecification responseSpecification(int statusCode){
         return new ResponseSpecBuilder()
-                //.expectStatusCode(statusCode)
+                .expectStatusCode(statusCode)
                 .build();
     }
 
